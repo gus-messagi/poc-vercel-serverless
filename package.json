@@ -5,5 +5,8 @@
     "eslint-plugin-json": "^3.0.0",
     "eslint-plugin-prettier": "^3.4.0",
     "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.22.0"
   }
 }

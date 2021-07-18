@@ -1,7 +1,7 @@
 db-up:
-	cd infra && \
+	cd infra/docker && \
 	docker-compose up -d
 
 db-down:
-	cd infra && \
+	cd infra/docker && \
 	docker-compose down -v --remove-orphans
