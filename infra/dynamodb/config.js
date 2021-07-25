@@ -27,7 +27,7 @@ const initialSetup = async () => {
     AttributeDefinitions: [
       {
         AttributeName: 'id',
-        AttributeType: 'N',
+        AttributeType: 'S',
       },
     ],
     ProvisionedThroughput: {
